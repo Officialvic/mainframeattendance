@@ -1,0 +1,69 @@
+:root {
+    --alpha: #132f70;
+    --beta: #de7002;
+    --light: #fff;
+    --black: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--light);
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+img {
+    width: 30%;
+}
+
+.container-fluid {
+    padding: 3rem 7.5rem;
+}
+
+/***************** TITLE SECTION  *********************/
+#title {
+    background-color: var(--alpha);
+    color: var(--light);
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+/***************** CLASS DETAIL SECTION  *********************/
+#class-detail h2, #attendance h2 {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.label-head {
+    background-color: var(--alpha);
+    color: var(--light);
+    font-weight: 500;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/***************** ATTENDANCE COLUMN SECTION  *********************/
+.counter{
+    text-align: center;
+    padding: 1.5rem;
+}
+.counter h2 {
+    font-size: 1.5rem;
+}
+
+/***************** FOOTERSECTION  *********************/
+#footer{
+    background-color: var(--alpha);
+    color: var(--light);
+    text-align: center;
+}
+
+p {
+    font-weight: 100;
+}
+
